@@ -16,6 +16,10 @@ else{
     var anim="";
 
 }
+
+message = message.replace(/\\"/g, '"');
+message = message.replace(/['"]+/g, '')
+    
 var _template_common = `
     <div class="row justify-content-${justify_direction}">
         <div class="msg msg-${dialog_direction}">
