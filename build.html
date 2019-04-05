@@ -20,17 +20,18 @@
   </head>
   <body>
     
-    <div class="wrapper row" style="width: inherit;  margin: 0">
-        
-            <div class="jumbotron jumbotron-fluid" style="width: inherit; text-align: center; color: white; font-weight: bold; background: #F7971E;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            ">
-                    <div class="container">
-                      <h1 class="display-4">Innovate</h1>
-                      <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
-                    </div>
-                  </div>
+    <div class="wrapper row" style="width: inherit;  margin: 0">            
+
+        <!-- As a heading -->
+        <nav class="navbar navbar-light bg-light" style="width: inherit; background: #f12711;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        ">
+            <span class="navbar-brand mb-0 h1" id="back_button" style="cursor: pointer;"><i class="fa fa-arrow-left"></i></span>
+            <div class="col" style="text-align: center">
+                <span class="navbar-brand mb-0 h1">Build</span>
+            </div>
+        </nav>
 
             <div class="container col-12" style="width: inherit; text-align: center">
     
@@ -50,7 +51,7 @@
                                     <h5 class="card-title">Deep Learning in Bengali Character Recognition</h5>
                                     <p class="card-text">
                                         The aim of this project is to apply deep learning models for recognition of Bengali characters and numerals. For training I used publicly available datasets. I also explored how to develop a complete Bengali character recognizer (BCR). <br />
-                                        <span style="font-weight: bold">Blog | <span style="font-size: 2em"><i class="fa fa-youtube"></i></span> Video <br />
+                                        <a href="https://software.intel.com/en-us/articles/deep-learning-bengali-character-recognition-from-real-world-images" target="blank"><span style="font-weight: bold">Blog</a> | <span style="font-size: 2em"><a href="https://www.youtube.com/watch?v=WFZxA-M2-BE&t=13s" target="blank"><i class="fa fa-youtube"></i></span> Video </a><br />
                                     </p>
                                     </div>                                    
                                 </div>
@@ -70,7 +71,7 @@
                                     <h5 class="card-title">Automated Brain Cancer Detection from MRI</h5>
                                     <p class="card-text">
                                         This is a cloud based solution which detects brain cancer from MRI using refractive index of tissue as the prime biological marker. It can also provide the spectroscopy information. <br/>
-                                        <span style="font-size: 2em"><i class="fa fa-youtube"></i></span> Video
+                                        <a href="https://www.youtube.com/watch?v=lHAF8xH3ucw" target="blank"><span style="font-size: 2em"><i class="fa fa-youtube"></i></span> Video</a>
                                     </p>
                                     </div>                                    
                                 </div>
@@ -78,6 +79,47 @@
                 </div>
 
             </div>
+
+            <div class="container col-12" style="width: inherit; text-align: center; background-color: #F7971E; margin-top: 20px; padding: 20px;">
+    
+                    <div style="width: inherit;">
+                        <div style="font-family: 'Montserrat', sans-serif; width: inherit; font-size: 2.5em; padding-top: 2%; color: white">Projects published to Youtube</div>
+                    </div>
+        
+                    <div style="width: inherit">
+                        <hr width="200" style="margin-bottom: 10px; background-color: gold; border: 1px solid gold; margin-bottom: 2%" />
+                    </div>
+    
+                    <div class="container">
+                        <div class="card-deck">
+                            <div class="card p-1">
+                                <img src="./res/images/smart_glass.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Smart Glass</h5>
+                                <p class="card-text">The video shows how you can build a smart glass which can display your messages, current location, incoming call, etc directly from your phone. Inspired by google smart glass.</p>
+                                <p class="card-text"><a href="https://www.youtube.com/watch?v=pkB1Nahi-X0&t=1s" target="blank"><small class="text-muted">Watch</small></a></p>
+                                </div>
+                            </div>
+                            <div class="card p-1">
+                                <img src="./res/images/smart_refrigerator.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Smart Refrigerator</h5>
+                                <p class="card-text">The video shows how to make your own smart Refrigerator.The system can be controlled using 2.4 inch touch screen display, 2 peltier module is switched on and off depending on the desired temperature.</p>
+                                <p class="card-text"><a href="https://www.youtube.com/watch?v=7A7v3gUePDw&t=2s" target="blank"><small class="text-muted">Watch</small></a></p>
+                                </div>
+                            </div>
+                            <div class="card p-1">
+                                <img src="./res/images/smoke_detector.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Smoke Detector</h5>
+                                <p class="card-text">Create your own smoke detector using readily avaliable components and designing your own pcb.</p>
+                                <p class="card-text"><a href="https://www.youtube.com/watch?v=1UOwV0HpGGk&t=1s" target="blank"><small class="text-muted">Watch</small></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
 
             <div class="container col-12" style="width: inherit; text-align: center">
     
@@ -97,71 +139,34 @@
                         <p class="card-text">The Java Swing based appication helps blood banks to conveniently share blood inventory and donor information with hospitals, in turn reducing the hassle of patients' families.</p>
                         </div>
                     </div>
-                    <div class="card p-3">
-                        <blockquote class="blockquote mb-0 card-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                        <footer class="blockquote-footer">
-                            <small class="text-muted">
-                            Someone famous in <cite title="Source Title">Source Title</cite>
-                            </small>
-                        </footer>
+                    <div class="card text-center p-3">
+                        <blockquote class="blockquote mb-0">
+                        <p>Built a hybrid mobile app to conveniently discover local businesses, ATMs, restaurants and shopping outlets.</p>
                         </blockquote>
-                    </div>
+                    </div>                   
                     <div class="card">
                         <img src="./res/images/human_tracking.png" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Human tracking from Infrared images</h5>
                         <p class="card-text">This ML based solution helps to automatically track human movement from infrared images.</p>                        
                         </div>
-                    </div>
-                    <div class="card bg-primary text-white text-center p-3">
-                        <blockquote class="blockquote mb-0">
-                        <p>Built a hybrid mobile app to conveniently discover local businesses, ATMs, restaurants and shopping outlets.</p>
-                        </blockquote>
-                    </div>
+                    </div>       
+                    <div class="card">
+                        <div class="card-body">
+                        <h5 class="card-title">Virtual reality platform for simulating psychiatric diseases</h5>
+                        <p class="card-text">Used Mozilla WebVR (A Frame) and phonegap for making a cross-platform app which can be used by doctors for diagnosing psychiatric diseases.</p>                        
+                        </div>
+                    </div>             
                     <div class="card text-center">
+                        <img src="./res/images/securitysystem.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Motion Detecting Smart Security Camera</h5>
                         <p class="card-text">It had PIR sensors which helps to align the camera in the direction of movement and the HD camera takes footage only in the event of motion.</p>                        
                         </div>
-                    </div>
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                    </div>
-                    <div class="card p-3 text-right">
-                        <blockquote class="blockquote mb-0">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                        <footer class="blockquote-footer">
-                            <small class="text-muted">
-                            Someone famous in <cite title="Source Title">Source Title</cite>
-                            </small>
-                        </footer>
-                        </blockquote>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                    </div>
-
-            </div>
-
-            <div class="container col-12" style="width: inherit; text-align: center">
-    
-                <div style="width: inherit;">
-                    <div style="font-family: 'Montserrat', sans-serif; width: inherit; font-size: 2.5em; padding-top: 2%">Projects published to Youtube</div>
-                </div>
-    
-                <div style="width: inherit">
-                    <hr width="200" style="margin-bottom: 10px; background-color: gold; border: 1px solid gold; margin-bottom: 2%" />
+                    </div>                                        
                 </div>
 
-
-
-            </div>
+            </div>            
 
             <div class="container" style="width: inherit; text-align: center; margin-bottom: 20px">
 
@@ -171,8 +176,8 @@
     
                 <div style="width: inherit;">
                     <div style="font-family: 'Montserrat', sans-serif; width: inherit; font-size: 1.5em; padding-top: 2%">Follow the below link for check out my achievements</div> <br/>
-                    <button type="button" class="btn btn-dark">Achievements</button>
-                </div>            
+                    <a href="./achievements.html"><button type="button" class="btn btn-dark">Achievements</button></a>
+                </div>                   
     
             </div> 
         </div>
@@ -182,5 +187,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        $("#back_button").click(function() {
+            window.history.go(-1);
+        });
+    </script>
   </body>
 </html>
