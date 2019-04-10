@@ -9,10 +9,6 @@
 
 @-webkit-keyframes slide-in-fwd-br{0%{-webkit-transform:translateZ(-1400px) translateY(800px) translateX(1000px);transform:translateZ(-1400px) translateY(800px) translateX(1000px);opacity:0}100%{-webkit-transform:translateZ(0) translateY(0) translateX(0);transform:translateZ(0) translateY(0) translateX(0);opacity:1}}@keyframes slide-in-fwd-br{0%{-webkit-transform:translateZ(-1400px) translateY(800px) translateX(1000px);transform:translateZ(-1400px) translateY(800px) translateX(1000px);opacity:0}100%{-webkit-transform:translateZ(0) translateY(0) translateX(0);transform:translateZ(0) translateY(0) translateX(0);opacity:1}}        
 
-body {
-    background: url("../res/images/milky_way.jpg");
-}
-
 html, body, #chatbot_container {
     height: 100%;
     width: 100%;
@@ -20,7 +16,7 @@ html, body, #chatbot_container {
 
 #chatbot_container {    
     overflow: hidden;            
-    background-color: rgba(15,12,41,.7);      
+    background-color: rgba(15,12,41,.9);      
     /* background: #0f0c29;  fallback for old browsers */
     /* background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  Chrome 10-25, Safari 5.1-6 */
     /* background: linear-gradient(to right, #24243e, #302b63, #0f0c29); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
