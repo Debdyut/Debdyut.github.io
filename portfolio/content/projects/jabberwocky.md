@@ -1,14 +1,14 @@
 ---
 title: "Jabberwocky"
 draft: false
+image: //via.placeholder.com/640x150
+alt_text: "Jabberwocky screenshot"
+summary: "Summary of the Jabberwocky project"
+tech_used:
+- Javascript
+- CSS
+- HTML
 ---
 
-![alt](//via.placeholder.com/640x150)
+Description of the Jabberwocky project ...
 
-Description...
-
-### Tech used
-
-* item
-* item
-* item
