@@ -27,15 +27,16 @@ canonifyURLs = true
   linkedin = "https://linkedin.com/in/debdyuthajra"
   github = "https://github.com/Debdyut"
 
-# Sitemap configuration
+# Sitemap configuration - use Hugo's built-in
 [sitemap]
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
 
-# Exclude certain pages from sitemap
-[taxonomies]
-  category = "categories"
-  tag = "tags"
+# Output formats
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
 
 ignoreLogs = ['warning-goldmark-raw-html']
