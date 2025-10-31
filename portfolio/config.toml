@@ -22,30 +22,19 @@ canonifyURLs = true
     [markup.goldmark.renderer]
       unsafe = true
 
-# Minification settings - disable for XML
-[minify]
-  disableXML = true
-
 # SEO and Social
 [social]
   linkedin = "https://linkedin.com/in/debdyuthajra"
   github = "https://github.com/Debdyut"
 
-# Sitemap configuration with explicit settings
+# Use Hugo's default sitemap - simple and reliable
 [sitemap]
   changefreq = "weekly"
   priority = 0.5
-  filename = "sitemap.xml"
 
 # Taxonomies
 [taxonomies]
   category = "categories"
   tag = "tags"
-
-# Output formats
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-  page = ["HTML"]
-  section = ["HTML", "RSS"]
 
 ignoreLogs = ['warning-goldmark-raw-html']
