@@ -10,7 +10,7 @@ draft: false
 
 ---
 
-## About
+## <span class="section-icon">👤</span> About
 
 Technical Product Engineer specializing in Enterprise Payments Gateway solutions. I blend technical depth with product management to deliver impactful payment integrations and lead cross-functional teams.
 
@@ -18,26 +18,26 @@ Currently expanding expertise into ARM embedded systems and community leadership
 
 ---
 
-## Key Expertise
+## <span class="section-icon">⚡</span> Key Expertise
 
-**Payments Integration**
+**<span class="emoji">💳</span> Payments Integration**
 - Credit card payments, alternative payment methods
 - Global payment solutions
 - Vendor integrations: Cardinal, Elavon, Visa, Amex
 
-**Technical Leadership**
+**<span class="emoji">👥</span> Technical Leadership**
 - Leading 2 Agile scrum teams
 - Cross-functional collaboration across 10+ portfolios
 - API Integration: REST APIs, OAuth, Swagger
 
-**Cloud & Infrastructure**
+**<span class="emoji">☁️</span> Cloud & Infrastructure**
 - AWS migration and modernization
 - Kubernetes administration
 - API Gateway setup (Kong, AWS ELB)
 
 ---
 
-## Current Focus
+## <span class="section-icon">🎯</span> Current Focus
 
 Exploring ARM Cortex-M architecture and embedded systems development while maintaining excellence in payment systems engineering.
 
@@ -45,10 +45,10 @@ Building community through mentorship and technical education.
 
 ---
 
-## Recognition
+## <span class="section-icon">🏆</span> Recognition
 
-- First Runner Up: "Building Apps For the Future" Hackathon
-- Winner: Innovation Pitch Contest
-- Winner: Smart India Hackathon 2017
-- Microsoft Certified: Azure Solutions Architect Expert
-- Mentor: NITI Aayog & Intel Unnati Workshops (200+ students)
+- <span class="emoji">🥈</span> First Runner Up: "Building Apps For the Future" Hackathon
+- <span class="emoji">🥇</span> Winner: Innovation Pitch Contest
+- <span class="emoji">🥇</span> Winner: Smart India Hackathon 2017
+- <span class="emoji">📜</span> Microsoft Certified: Azure Solutions Architect Expert
+- <span class="emoji">👨‍🏫</span> Mentor: NITI Aayog & Intel Unnati Workshops (200+ students)

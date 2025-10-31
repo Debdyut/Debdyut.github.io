@@ -5,7 +5,7 @@
     {{ .Content }}
 
     {{ $url:= printf "%s/%s/repos" .Site.Params.gh_url .Site.Params.gh_user }}
-    {{ $repos := getJSON $url }}
+    {{ $repos := resources.GetRemote $url | transform.Unmarshal }}
 
     <section class="oss">
         {{ range $repos }}

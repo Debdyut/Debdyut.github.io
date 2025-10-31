@@ -12,3 +12,10 @@ theme = 'basic'
 
  gh_url = "https://api.github.com/users"
  gh_user = "Debdyut"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+ignoreLogs = ['warning-goldmark-raw-html']

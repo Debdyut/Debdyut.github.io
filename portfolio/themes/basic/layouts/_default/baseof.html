@@ -10,10 +10,10 @@
 <body>
     <nav>
         <ul>
-            <li><a href="{{ "/" | relURL }}">Home</a></li>
-            <li><a href="{{ "/projects" | relURL }}">Projects</a></li>
-            <li><a href="{{ "/opensource" | relURL }}">Community</a></li>
-            <li><a href="{{ "/contact" | relURL }}">Connect</a></li>
+            <li><a href="{{ "/" | relURL }}"><span class="emoji">🏠</span> Home</a></li>
+            <li><a href="{{ "/projects" | relURL }}"><span class="emoji">🛠️</span> Projects</a></li>
+            <li><a href="{{ "/opensource" | relURL }}"><span class="emoji">🌍</span> Community</a></li>
+            <li><a href="{{ "/contact" | relURL }}"><span class="emoji">📧</span> Connect</a></li>
         </ul>
     </nav>
     
@@ -23,7 +23,7 @@
     
     <footer>
         <div class="ascii-divider"></div>
-        <p>{{ .Site.Params.author }} | {{ .Site.Params.role }}</p>
+        <p><span class="emoji">👨‍💻</span> {{ .Site.Params.author }} | {{ .Site.Params.role }}</p>
     </footer>
 </body>
 </html>

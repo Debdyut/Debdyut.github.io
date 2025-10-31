@@ -5,33 +5,33 @@ draft: false
 layout: contact
 ---
 
-# Let's Connect
+# <span class="section-icon">🤝</span> Let's Connect
 
 ---
 
-## Professional
+## <span class="emoji">💼</span> Professional
 
-**LinkedIn**: [linkedin.com/in/debdyuthajra](https://linkedin.com/in/debdyuthajra)
+**<span class="emoji">🔗</span> LinkedIn**: [linkedin.com/in/debdyuthajra](https://linkedin.com/in/debdyuthajra)
 
-**GitHub**: [github.com/Debdyut](https://github.com/Debdyut)
+**<span class="emoji">💻</span> GitHub**: [github.com/Debdyut](https://github.com/Debdyut)
 
 ---
 
-## Interests
+## <span class="emoji">🎯</span> Interests
 
-**Technical Discussions**
+**<span class="emoji">💬</span> Technical Discussions**
 - Payment systems architecture
 - Cloud infrastructure and AWS
 - ARM embedded systems
 - Product management
 
-**Collaboration**
+**<span class="emoji">🤝</span> Collaboration**
 - Open source contributions
 - Technical mentorship
 - Community building
 - Innovation projects
 
-**Speaking & Mentorship**
+**<span class="emoji">🎤</span> Speaking & Mentorship**
 - Technical workshops
 - Student mentoring
 - Industry presentations

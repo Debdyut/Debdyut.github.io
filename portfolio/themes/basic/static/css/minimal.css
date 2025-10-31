@@ -165,6 +165,18 @@ button:hover {
   margin: 2rem 0;
 }
 
+/* Black & White Emoji Styling */
+.emoji {
+  filter: grayscale(100%) contrast(200%);
+  font-style: normal;
+}
+
+.section-icon {
+  font-size: 1.2em;
+  margin-right: 0.5rem;
+  filter: grayscale(100%) contrast(200%);
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   body {

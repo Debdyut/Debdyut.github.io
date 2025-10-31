@@ -8,21 +8,21 @@ outputs:
 - RSS
 ---
 
-# Projects
+# <span class="section-icon">🛠️</span> Projects
 
 A collection of technical projects demonstrating expertise across payment systems, cloud architecture, and emerging embedded technologies.
 
 ---
 
-## Enterprise Solutions
+## <span class="emoji">🏢</span> Enterprise Solutions
 
 Payment gateway integrations, cloud migrations, and scalable API architectures.
 
-## Embedded Systems
+## <span class="emoji">🔧</span> Embedded Systems
 
 ARM Cortex-M learning journey and embedded development projects.
 
-## Innovation
+## <span class="emoji">💡</span> Innovation
 
 Hackathon projects, research publications, and experimental technologies.
 
