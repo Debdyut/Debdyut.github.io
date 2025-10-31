@@ -2,6 +2,9 @@
 title: "Portfolio"
 date: 2024-10-31T16:47:00+05:30
 draft: false
+[sitemap]
+  changefreq = 'weekly'
+  priority = 1.0
 ---
 
 # Debdyut Hajra

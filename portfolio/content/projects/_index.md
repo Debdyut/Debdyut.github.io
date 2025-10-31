@@ -2,6 +2,9 @@
 title: "Projects"
 draft: false
 description: Technical projects spanning payments, cloud infrastructure, and embedded systems
+[sitemap]
+  changefreq = 'weekly'
+  priority = 0.9
 outputs:
 - HTML
 - JSON
