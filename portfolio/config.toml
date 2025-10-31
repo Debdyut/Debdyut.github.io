@@ -31,5 +31,11 @@ canonifyURLs = true
 [sitemap]
   changefreq = "weekly"
   priority = 0.5
+  filename = "sitemap.xml"
+
+# Exclude certain pages from sitemap
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
 ignoreLogs = ['warning-goldmark-raw-html']
