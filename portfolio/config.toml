@@ -22,6 +22,10 @@ canonifyURLs = true
     [markup.goldmark.renderer]
       unsafe = true
 
+# Minification settings - disable for XML
+[minify]
+  disableXML = true
+
 # SEO and Social
 [social]
   linkedin = "https://linkedin.com/in/debdyuthajra"
