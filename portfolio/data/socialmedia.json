@@ -2,12 +2,12 @@
   "accounts":
   [
     {
-      "name": "Twitter",
-      "url": "https://twitter.com/AngelDHajra"
-    },
-    {
       "name": "LinkedIn",
       "url": "https://linkedin.com/in/debdyuthajra"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Debdyut"
     }
   ]
 }

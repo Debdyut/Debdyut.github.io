@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<html>
-    {{- partial "head.html" . -}}
-    <body>
-	<div class="container">
-            {{- partial "header.html" . -}}
-	    {{- partial "nav.html" . -}}
-            <main>
-	        {{- block "main" . }}{{- end }}
-            </main>
-	    {{- partial "footer.html" . -}}
-	</div>
-    </body>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <link rel="stylesheet" href="{{ "css/minimal.css" | relURL }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{{ "/" | relURL }}">Home</a></li>
+            <li><a href="{{ "/projects" | relURL }}">Projects</a></li>
+            <li><a href="{{ "/opensource" | relURL }}">Community</a></li>
+            <li><a href="{{ "/contact" | relURL }}">Connect</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+    
+    <footer>
+        <div class="ascii-divider"></div>
+        <p>{{ .Site.Params.author }} | {{ .Site.Params.role }}</p>
+    </footer>
+</body>
 </html>

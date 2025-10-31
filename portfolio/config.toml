@@ -1,11 +1,14 @@
 baseURL = 'https://debdyut.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Debdyut Hajra'
 theme = 'basic'
 
 [params]
  author = "Debdyut Hajra"
- description = "My portfolio site"
+ description = "Technical Product Engineer | Payments Integration Expert | ARM Embedded Systems Enthusiast"
+ tagline = "Driving Seamless Payment Experiences"
+ role = "Technical Product Owner @Delta Air Lines"
+ design_theme = "minimal-monochrome"
 
  gh_url = "https://api.github.com/users"
  gh_user = "Debdyut"

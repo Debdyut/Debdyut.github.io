@@ -1,12 +1,28 @@
 ---
 title: "Projects"
 draft: false
-description: A list of Brian's projects
+description: Technical projects spanning payments, cloud infrastructure, and embedded systems
 outputs:
 - HTML
 - JSON
 - RSS
 ---
 
-This is a list of my projects. You can select each project to learn more about each one.
+# Projects
+
+A collection of technical projects demonstrating expertise across payment systems, cloud architecture, and emerging embedded technologies.
+
+---
+
+## Enterprise Solutions
+
+Payment gateway integrations, cloud migrations, and scalable API architectures.
+
+## Embedded Systems
+
+ARM Cortex-M learning journey and embedded development projects.
+
+## Innovation
+
+Hackathon projects, research publications, and experimental technologies.
 
