@@ -1,11 +1,15 @@
 baseURL = 'https://debdyut.github.io/'
 languageCode = 'en-us'
-title = 'Debdyut Hajra'
+title = 'Debdyut Hajra - Technical Product Engineer'
 theme = 'basic'
+
+# SEO Settings
+enableRobotsTXT = true
+canonifyURLs = true
 
 [params]
  author = "Debdyut Hajra"
- description = "Technical Product Engineer | Payments Integration Expert | ARM Embedded Systems Enthusiast"
+ description = "Technical Product Engineer at Delta Air Lines specializing in payment gateway integration, AWS cloud architecture, and ARM embedded systems. Expert in Java, Kubernetes, and product management."
  tagline = "Driving Seamless Payment Experiences"
  role = "Technical Product Owner @Delta Air Lines"
  design_theme = "minimal-monochrome"
@@ -17,5 +21,15 @@ theme = 'basic'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+# SEO and Social
+[social]
+  linkedin = "https://linkedin.com/in/debdyuthajra"
+  github = "https://github.com/Debdyut"
+
+# Sitemap configuration
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
 
 ignoreLogs = ['warning-goldmark-raw-html']

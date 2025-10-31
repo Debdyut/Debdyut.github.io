@@ -1,0 +1,55 @@
+<!-- SEO Meta Tags -->
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta name="keywords" content="Debdyut Hajra, Technical Product Engineer, Delta Air Lines, Payment Gateway, ARM Embedded Systems, AWS, Kubernetes, Java Developer, Bengaluru">
+<meta name="author" content="{{ .Site.Params.author }}">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:title" content="{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}">
+<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="{{ .Permalink }}">
+<meta name="twitter:title" content="{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}">
+<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ .Site.Params.author }}",
+  "jobTitle": "Technical Product Engineer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Delta Air Lines"
+  },
+  "url": "{{ .Site.BaseURL }}",
+  "sameAs": [
+    "https://linkedin.com/in/debdyuthajra",
+    "https://github.com/Debdyut"
+  ],
+  "knowsAbout": [
+    "Payment Gateway Integration",
+    "AWS Cloud Architecture",
+    "ARM Embedded Systems",
+    "Kubernetes",
+    "Java Development",
+    "Product Management"
+  ],
+  "alumniOf": "B.P. Poddar Institute Of Management and Technology",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bengaluru",
+    "addressRegion": "Karnataka",
+    "addressCountry": "India"
+  }
+}
+</script>

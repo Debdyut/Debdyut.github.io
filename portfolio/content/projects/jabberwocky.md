@@ -1,6 +1,7 @@
 ---
 title: "Enterprise Payment Gateway Integration"
 draft: false
+description: "Led Amex Connectivity and Visanet Integration with enterprise payment gateway at Delta Air Lines. Expertise in Java Spring Boot, REST APIs, OAuth, AWS, and Kubernetes for scalable payment processing."
 image: ""
 alt_text: "Payment gateway architecture diagram"
 summary: "Led Amex Connectivity and Visanet Integration with enterprise payment gateway at Delta Air Lines"
@@ -11,6 +12,7 @@ tech_used:
 - AWS
 - Kubernetes
 category: "enterprise"
+keywords: ["payment gateway", "amex integration", "visa integration", "enterprise payments", "delta air lines", "java spring boot", "aws", "kubernetes"]
 ---
 
 ## Overview
