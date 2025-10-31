@@ -1,6 +1,23 @@
 # Debdyut Hajra - Professional Portfolio
 
-Technical Product Engineer portfolio showcasing expertise in payments integration, cloud architecture, and ARM embedded systems.
+**Technical Product Engineer at Delta Air Lines | Payment Systems Expert | ARM Embedded Systems Enthusiast**
+
+Professional portfolio showcasing expertise in enterprise payment gateway integration, AWS cloud architecture, and ARM embedded systems development.
+
+## 🎯 About
+
+Technical Product Engineer specializing in:
+- **Payment Gateway Integration** - Amex, Visa, Cardinal, Elavon
+- **Cloud Architecture** - AWS migration, Kubernetes, microservices
+- **Product Leadership** - Leading 2 Agile scrum teams at Delta Air Lines
+- **ARM Embedded Systems** - Cortex-M development and community building
+
+## 🏆 Achievements
+
+- **Microsoft Certified**: Azure Solutions Architect Expert
+- **Hackathon Winner**: Smart India Hackathon 2017, Innovation Pitch Contest
+- **Community Leader**: Mentored 200+ students (NITI Aayog & Intel Unnati)
+- **Publications**: 3 research papers on renewable energy and IoT
 
 ## 🚀 Quick Start
 
@@ -91,8 +108,20 @@ Automated deployment via GitHub Actions:
 4. Test locally with `hugo server`
 5. Commit and push to trigger deployment
 
+## 🔍 SEO Features
+
+- **Google Search Console** verified
+- **Structured data** (JSON-LD) for professional profile
+- **Open Graph** and Twitter Card meta tags
+- **Sitemap** and robots.txt optimization
+- **Professional keywords** targeting
+
+## 🌐 Connect
+
+- **Portfolio**: https://debdyut.github.io
+- **LinkedIn**: https://linkedin.com/in/debdyuthajra
+- **GitHub**: https://github.com/Debdyut
+
 ---
 
-**Live Site**: https://debdyut.github.io  
-**Author**: Debdyut Hajra  
-**Role**: Technical Product Owner @Delta Air Lines
+**Technical Product Owner @Delta Air Lines** | **Payment Gateway Expert** | **ARM Ambassador Candidate**
