@@ -27,10 +27,21 @@ canonifyURLs = true
   linkedin = "https://linkedin.com/in/debdyuthajra"
   github = "https://github.com/Debdyut"
 
-# Use Hugo's default sitemap - simple and reliable
+# Custom sitemap configuration
 [sitemap]
   changefreq = "weekly"
   priority = 0.5
+
+# Output formats
+[outputs]
+  home = ["HTML", "RSS", "sitemap"]
+
+[outputFormats]
+  [outputFormats.sitemap]
+    mediaType = "application/xml"
+    baseName = "sitemap"
+    path = "sitemap"
+    isPlainText = true
 
 # Taxonomies
 [taxonomies]
