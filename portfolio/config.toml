@@ -4,7 +4,7 @@ title = 'Debdyut Hajra - Technical Product Engineer'
 theme = 'basic'
 
 # SEO Settings
-enableRobotsTXT = true
+enableRobotsTXT = false
 canonifyURLs = true
 
 [params]
