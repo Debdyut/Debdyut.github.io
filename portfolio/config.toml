@@ -32,6 +32,10 @@ canonifyURLs = true
   changefreq = "weekly"
   priority = 0.5
 
+# Output formats
+[outputs]
+  home = ["HTML", "RSS", "sitemap"]
+
 # Taxonomies
 [taxonomies]
   category = "categories"
