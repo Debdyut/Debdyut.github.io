@@ -36,9 +36,19 @@
 
     <script>
     function toggleNav() {
+        console.log('toggleNav called');
         const menu = document.getElementById('nav-menu');
-        menu.classList.toggle('show');
+        console.log('menu element:', menu);
+        if (menu) {
+            menu.classList.toggle('show');
+            console.log('menu classes:', menu.className);
+        }
     }
+    
+    // Test on page load
+    document.addEventListener('DOMContentLoaded', function() {
+        console.log('Page loaded, nav-menu element:', document.getElementById('nav-menu'));
+    });
     </script>
 </body>
 </html>

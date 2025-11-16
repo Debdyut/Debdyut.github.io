@@ -162,10 +162,13 @@ nav a:hover {
     gap: 1rem;
     margin-top: 2rem;
     text-align: center;
+    background: var(--light-lavender);
+    padding: 1rem;
+    border-radius: 4px;
   }
   
   nav ul.show {
-    display: flex;
+    display: flex !important;
   }
 }
 
