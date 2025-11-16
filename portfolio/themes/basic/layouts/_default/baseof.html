@@ -15,14 +15,17 @@
     <link rel="stylesheet" href="{{ "css/minimal.css" | relURL }}">
 </head>
 <body>
-    <nav>
-        <button class="nav-toggle" onclick="toggleNav()">☰</button>
-        <ul id="nav-menu">
-            <li><a href="{{ "/" | relURL }}"><span class="emoji">🏠</span> Home</a></li>
-            <li><a href="{{ "/projects" | relURL }}"><span class="emoji">🛠️</span> Projects</a></li>
-            <li><a href="{{ "/opensource" | relURL }}"><span class="emoji">🌍</span> Community</a></li>
-            <li><a href="{{ "/contact" | relURL }}"><span class="emoji">📧</span> Connect</a></li>
-        </ul>
+    <nav id="navbar">
+        <div class="nav-container">
+            <button class="nav-toggle" onclick="toggleNav()">☰</button>
+            <div class="brand">Debdyut Hajra</div>
+            <ul id="nav-menu">
+                <li><a href="{{ "/" | relURL }}"><span class="emoji">🏠</span> Home</a></li>
+                <li><a href="{{ "/projects" | relURL }}"><span class="emoji">🛠️</span> Projects</a></li>
+                <li><a href="{{ "/opensource" | relURL }}"><span class="emoji">🌍</span> Community</a></li>
+                <li><a href="{{ "/contact" | relURL }}"><span class="emoji">📧</span> Connect</a></li>
+            </ul>
+        </div>
     </nav>
     
     <main>
@@ -36,18 +39,18 @@
 
     <script>
     function toggleNav() {
-        console.log('toggleNav called');
         const menu = document.getElementById('nav-menu');
-        console.log('menu element:', menu);
-        if (menu) {
-            menu.classList.toggle('show');
-            console.log('menu classes:', menu.className);
-        }
+        menu.classList.toggle('show');
     }
     
-    // Test on page load
-    document.addEventListener('DOMContentLoaded', function() {
-        console.log('Page loaded, nav-menu element:', document.getElementById('nav-menu'));
+    // Sticky navbar on scroll
+    window.addEventListener('scroll', function() {
+        const navbar = document.getElementById('navbar');
+        if (window.scrollY > 50) {
+            navbar.classList.add('sticky');
+        } else {
+            navbar.classList.remove('sticky');
+        }
     });
     </script>
 </body>
