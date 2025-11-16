@@ -114,10 +114,9 @@ pre {
 
 /* Navigation */
 nav {
-  background: var(--deep-purple);
-  border-radius: 8px;
-  margin-bottom: 2rem;
-  padding: 1rem;
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--sage-green);
 }
 
 nav ul {
@@ -125,21 +124,19 @@ nav ul {
   padding: 0;
   display: flex;
   gap: 2rem;
+  justify-content: center;
 }
 
 nav a {
-  color: var(--light-gray);
+  color: var(--steel-blue);
   border: none;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  transition: all 0.3s ease;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
 }
 
 nav a:hover {
-  background: var(--sage-green);
-  color: var(--charcoal);
+  color: var(--rust-terracotta);
 }
 
 /* Project Cards */
