@@ -68,7 +68,6 @@ a {
   color: var(--rust-terracotta);
   text-decoration: none;
   border-bottom: 1px solid var(--rust-terracotta);
-  transition: all 0.3s ease;
 }
 
 a:hover {
@@ -145,7 +144,6 @@ nav a {
   border: none;
   font-size: 0.9rem;
   letter-spacing: 0.5px;
-  transition: color 0.3s ease;
 }
 
 nav a:hover {
@@ -166,7 +164,7 @@ nav a:hover {
     text-align: center;
   }
   
-  nav ul.active {
+  nav ul.show {
     display: flex;
   }
 }
@@ -178,7 +176,6 @@ nav a:hover {
   margin: 2rem 0;
   padding: 1.5rem;
   border-radius: 8px;
-  transition: all 0.3s ease;
 }
 
 .project-card:hover {
@@ -212,7 +209,6 @@ input, textarea {
   width: 100%;
   margin: 0.5rem 0;
   border-radius: 4px;
-  transition: border-color 0.3s ease;
 }
 
 input:focus, textarea:focus {
@@ -230,12 +226,10 @@ button {
   text-transform: uppercase;
   letter-spacing: 1px;
   border-radius: 4px;
-  transition: all 0.3s ease;
 }
 
 button:hover {
   background: var(--deep-purple);
-  transform: translateY(-2px);
 }
 
 /* Enhanced Emoji Styling */
