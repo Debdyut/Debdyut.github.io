@@ -9,14 +9,15 @@
     {{ partial "seo.html" . }}
     
     <!-- Favicon -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨💻</text></svg>">
     
     <!-- Styles -->
     <link rel="stylesheet" href="{{ "css/minimal.css" | relURL }}">
 </head>
 <body>
     <nav>
-        <ul>
+        <button class="nav-toggle" onclick="toggleNav()">☰</button>
+        <ul id="nav-menu">
             <li><a href="{{ "/" | relURL }}"><span class="emoji">🏠</span> Home</a></li>
             <li><a href="{{ "/projects" | relURL }}"><span class="emoji">🛠️</span> Projects</a></li>
             <li><a href="{{ "/opensource" | relURL }}"><span class="emoji">🌍</span> Community</a></li>
@@ -30,7 +31,14 @@
     
     <footer>
         <div class="ascii-divider"></div>
-        <p><span class="emoji">👨‍💻</span> {{ .Site.Params.author }} | {{ .Site.Params.role }}</p>
+        <p><span class="emoji">👨💻</span> {{ .Site.Params.author }} | {{ .Site.Params.role }}</p>
     </footer>
+
+    <script>
+    function toggleNav() {
+        const menu = document.getElementById('nav-menu');
+        menu.classList.toggle('active');
+    }
+    </script>
 </body>
 </html>
