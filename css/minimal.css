@@ -11,6 +11,24 @@
   --warm-beige: #E8DDD4;
 }
 
+/* Skip Navigation */
+.skip-nav {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--deep-purple);
+  color: var(--light-gray);
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+.skip-nav:focus {
+  top: 6px;
+  outline: 2px solid var(--warm-peach);
+}
+
 /* Base Mobile Styles */
 * {
   margin: 0;
@@ -63,6 +81,12 @@ a:hover {
   padding: 2px 4px;
 }
 
+a:focus {
+  outline: 2px solid var(--rust-terracotta);
+  outline-offset: 2px;
+  background: var(--light-lavender);
+}
+
 /* Navigation - Mobile First */
 nav {
   background: var(--deep-purple);
@@ -94,6 +118,13 @@ nav a {
 }
 
 nav a:hover {
+  background: var(--sage-green);
+  color: var(--charcoal);
+}
+
+nav a:focus {
+  outline: 2px solid var(--warm-peach);
+  outline-offset: 2px;
   background: var(--sage-green);
   color: var(--charcoal);
 }
@@ -141,6 +172,12 @@ input, textarea {
   border-radius: 4px;
 }
 
+input:focus, textarea:focus {
+  outline: 2px solid var(--rust-terracotta);
+  outline-offset: 2px;
+  border-color: var(--deep-purple);
+}
+
 button {
   background: var(--rust-terracotta);
   color: var(--light-gray);
@@ -153,6 +190,12 @@ button {
 }
 
 button:hover {
+  background: var(--deep-purple);
+}
+
+button:focus {
+  outline: 2px solid var(--warm-peach);
+  outline-offset: 2px;
   background: var(--deep-purple);
 }
 
@@ -184,7 +227,7 @@ footer {
   
   nav ul {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
   }
   
@@ -193,7 +236,7 @@ footer {
   }
   
   nav a {
-    display: inline;
+    display: inline-block;
     padding: 0.5rem 1rem;
   }
   
@@ -213,19 +256,18 @@ footer {
 
 /* Desktop Enhancement */
 @media (min-width: 1024px) {
-  nav {
-    background: transparent;
-    border-bottom: 1px solid var(--sage-green);
-    padding: 1rem 0;
-  }
-  
-  nav a {
-    color: var(--steel-blue);
-    background: none;
+  nav ul {
+    gap: 2rem;
   }
   
   nav a:hover {
-    color: var(--rust-terracotta);
-    background: none;
+    background: var(--light-lavender);
+    color: var(--deep-purple);
+  }
+  
+  nav a:focus {
+    outline: 2px solid var(--rust-terracotta);
+    background: var(--light-lavender);
+    color: var(--deep-purple);
   }
 }
