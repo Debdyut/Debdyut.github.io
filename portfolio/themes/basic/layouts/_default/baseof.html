@@ -15,22 +15,24 @@
     <link rel="stylesheet" href="{{ "css/minimal.css" | relURL }}">
 </head>
 <body>
-    <nav>
+    <a href="#main-content" class="skip-nav">Skip to main content</a>
+    
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-brand">{{ .Site.Params.author }}</div>
         <ul>
-            <li><a href="{{ "/" | relURL }}"><span class="emoji">🏠</span> Home</a></li>
-            <li><a href="{{ "/projects" | relURL }}"><span class="emoji">🛠️</span> Projects</a></li>
-            <li><a href="{{ "/opensource" | relURL }}"><span class="emoji">🌍</span> Community</a></li>
-            <li><a href="{{ "/contact" | relURL }}"><span class="emoji">📧</span> Connect</a></li>
+            <li><a href="{{ "/" | relURL }}"><span class="emoji" aria-hidden="true">🏠</span> Home</a></li>
+            <li><a href="{{ "/projects" | relURL }}"><span class="emoji" aria-hidden="true">🛠️</span> Projects</a></li>
+            <li><a href="{{ "/opensource" | relURL }}"><span class="emoji" aria-hidden="true">🌍</span> Community</a></li>
+            <li><a href="{{ "/contact" | relURL }}"><span class="emoji" aria-hidden="true">📧</span> Connect</a></li>
         </ul>
     </nav>
     
-    <main>
+    <main id="main-content" role="main">
         {{ block "main" . }}{{ end }}
     </main>
     
-    <footer>
-        <p><span class="emoji">👨💻</span> {{ .Site.Params.author }} | {{ .Site.Params.role }}</p>
+    <footer role="contentinfo">
+        <p><span class="emoji" aria-hidden="true">👨💻</span> {{ .Site.Params.author }} | {{ .Site.Params.role }}</p>
     </footer>
 </body>
 </html>
